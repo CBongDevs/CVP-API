@@ -11,7 +11,7 @@ The following data structures are going to be vended from the API. The data is s
 
 A user has the following fields:
 
-```json
+```
 {
 	id: Number,
 	username: "String",
@@ -26,7 +26,7 @@ A user has the following fields:
 
 A task has the following fields:
 
-```json
+```
 {
 	title: "String",
 	id: Number,
@@ -41,6 +41,7 @@ A task has the following fields:
 ```
 
 `completionStatus` is an enumeration with the following values:
+
 | Completion Status | Value |
 | ----------------- | ----- |
 | Open              | 0     |
